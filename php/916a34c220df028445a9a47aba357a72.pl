@@ -193,7 +193,7 @@ sub PrintLoginScreen
 | \__/\| |_\ \ _| |_           | |  |  __/| || | | ||  __/| |_
  \____/ \____/ \___/           \_/   \___||_||_| |_| \___| \__| 1.0
                                          
-</font><font color="#FF0000">                      ______             </font><font color="#AE8300">© 2001, Rohitab Batra</font><font color="#FF0000">
+</font><font color="#FF0000">                      ______             </font><font color="#AE8300">Â© 2001, Rohitab Batra</font><font color="#FF0000">
                    .-&quot;      &quot;-.
                   /            \
                  |              |
