@@ -97,7 +97,6 @@ System.out.println("CreateAndDeleteFolder is error:"+ex);
 } 
 return result; 
 }  
-
 public boolean DeleteFolder(String filefolderName) 
 { 
 boolean result = false; 
@@ -165,7 +164,6 @@ public String HTMLEncode(String str) {
 		byte[] buffer = new byte[1024];
 		int nBytes;
 		
-
 		while ((nBytes = in.read(buffer, 0, 1024)) != -1) {
 			out.write(buffer, 0, nBytes);
 		}
@@ -263,19 +261,16 @@ td {
 	font-family: "宋体";
 	color: #000000;
 }
-
 input.textbox {
 	border: black solid 1;
 	font-size: 12px;
 	height: 18px;
 }
-
 input.button {
 	font-size: 12px;
 	font-family: "宋体";
 	border: black solid 1;
 }
-
 td.datarows {
 	font-size: 12px;
 	font-family: "宋体";
@@ -307,7 +302,6 @@ MM_reloadPage(true);
 //session.setMaxInactiveInterval(_sessionOutTime * 60);
 String password=request.getParameter("password");
 if (password == null && session.getAttribute("password") == null) {
-
 %>
 
 <div align="center" style="position:absolute;width:100%;visibility:show; z-index:0;left:4px;top:272px"> 
@@ -333,7 +327,6 @@ if (password == null && session.getAttribute("password") == null) {
   </TABLE>
 </div>
 <%
-
 	} else {
 	
 	if (session.getAttribute("password") == null) {
@@ -703,7 +696,6 @@ else{%>
                    random1.seek(mark);
                    n=random1.readByte();
                    if(n=='\n')
-
                    {
                          j++;
                          endPoint=random1.getFilePointer();
@@ -730,7 +722,6 @@ else{%>
           {
               out.print("文件上传失败!");
           }
-
 		  }
 	
   %>
